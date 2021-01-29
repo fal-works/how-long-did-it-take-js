@@ -1,6 +1,6 @@
 {
   "name": "how-long-did-it-take",
-  "description": "Measure elapsed time.",
+  "description": "Measure elapsed time. Format with s, ms or ns. Both CLI and API. Small bundling size.",
   "version": "0.1.0",
   "license": "MIT",
   "author": "FAL",
