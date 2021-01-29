@@ -1,13 +1,13 @@
 {
-  "name": "how-long-did-it-take",
+  "name": "howlongdidittake",
   "description": "Measure elapsed time. Format with s, ms or ns. Both CLI and API. Small bundling size.",
   "version": "0.1.0",
   "license": "MIT",
   "author": "FAL",
   "keywords": [],
-  "homepage": "https://github.com/fal-works/how-long-did-it-take#readme",
+  "homepage": "https://github.com/fal-works/howlongdidittake#readme",
   "bugs": {
-    "url": "https://github.com/fal-works/how-long-did-it-take/issues"
+    "url": "https://github.com/fal-works/howlongdidittake/issues"
   },
   "type": "module",
   "files": [

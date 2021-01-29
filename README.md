@@ -1,4 +1,4 @@
-# how-long-did-it-take
+# HowLongDidItTake
 
 Measure elapsed time.
 
@@ -29,7 +29,7 @@ hldit (any *.js filepath)
 ### Import
 
 ```js
-import * as hldit from "how-long-did-it-take";
+import * as hldit from "howlongdidittake";
 ```
 
 ### Stopwatch
