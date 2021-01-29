@@ -2,8 +2,10 @@
 
 Measure elapsed time.
 
-- Choose `s`, `ms` or `ns`. Even automatically.
+- Simple. Lightweight. TypeScript friendly. Small bundling size.
+- Format the result. Choose `s`, `ms` or `ns`. Even automatically.
 - Limit the precision or the fraction digits.
+- Available on both Node.js and browsers (maybe).
 
 
 ## CLI
