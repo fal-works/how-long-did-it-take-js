@@ -7,8 +7,9 @@ const firstArg = argv[0];
 
 if (!firstArg || firstArg === "--help") {
   console.log("Command usage:");
-  console.log("  hldit (any command)\n");
-  console.log("  hldit --js (filepath)\n");
+  console.log("  hldit (any command)");
+  console.log("  hldit (any *.js filepath)");
+  console.log();
   process.exit(0);
 }
 
