@@ -40,7 +40,7 @@ console.log(getElapsedTime());
 ```
 
 ```js
-const getElapsedTime = hldit.stopwatch.withUnit("ms", 2); // give unit and fraction digits
+const getElapsedTime = hldit.stopwatch.withUnit("ms", 2); // give unit & fraction digits
 console.log(getElapsedTime());
 ```
 
@@ -56,7 +56,7 @@ measure(anyAsyncCallback).then((elapsedTime) => console.log(elapsedTime));
 ```js
 const anyAsyncCallback = () => Promise.resolve();
 
-const measure = hldit.measure.withUnit("ms", 2); // give unit ant fraction digits
+const measure = hldit.measure.withUnit("ms", 2); // give unit & fraction digits
 measure(anyAsyncCallback).then((elapsedTime) => console.log(elapsedTime));
 ```
 
