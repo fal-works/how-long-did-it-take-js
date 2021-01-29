@@ -40,7 +40,7 @@
       }
     },
 
-    // config with basic rules
+    // config for bin
     {
       "files": ["bin/**/*.js"],
       "env": {
