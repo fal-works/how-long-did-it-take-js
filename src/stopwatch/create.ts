@@ -1,13 +1,13 @@
-import { performance } from "perf_hooks";
+import { timestamp } from "../util/timestamp.js";
 
 import type { Formatter } from "../format/common-types";
 import type { Stopwatch } from "./types";
 
 export function create(format: Formatter): Stopwatch {
-  let last = performance.now();
+  let last = timestamp();
 
   return () => {
-    const now = performance.now();
+    const now = timestamp();
     const elapsed = now - last;
     last = now;
 
