@@ -1,0 +1,12 @@
+// https://aka.ms/tsconfig.json
+{
+  "include": ["**/*.js"],
+  "extends": "../tsconfig.base.json",
+
+  "compilerOptions": {
+    /* Basic Options */
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true
+  }
+}

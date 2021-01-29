@@ -2,6 +2,9 @@ import { exec } from "child_process";
 import { create } from "../lib/stop-watch/create.js";
 import { autoUnit } from "../lib/format/auto-unit.js";
 
+/**
+ * @param {string} command
+ */
 export const runCommand = (command) => {
   const cwd = process.cwd();
   const PATH = (process.env.PATH ? [process.env.PATH] : [])
@@ -18,8 +21,9 @@ export const runCommand = (command) => {
     }
     console.log(`command complete. (${getElapsed()})`);
   });
-  child.stdout.pipe(process.stdout);
-  child.stderr.pipe(process.stderr);
+  const { stdout, stderr } = child;
+  if (stdout) stdout.pipe(process.stdout);
+  if (stderr) stderr.pipe(process.stderr);
 
   return child;
 };
