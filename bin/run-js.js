@@ -1,6 +1,6 @@
 import { resolve } from "path";
 
-import { create } from "../lib/stop-watch/create.js";
+import { create } from "../lib/stopwatch/create.js";
 import { autoUnit } from "../lib/format/auto-unit.js";
 
 /**

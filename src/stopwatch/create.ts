@@ -1,9 +1,9 @@
 import { performance } from "perf_hooks";
 
 import type { Formatter } from "../format/common-types";
-import type { StopWatch } from "./types";
+import type { Stopwatch } from "./types";
 
-export function create(format: Formatter): StopWatch {
+export function create(format: Formatter): Stopwatch {
   let last = performance.now();
 
   return () => {
